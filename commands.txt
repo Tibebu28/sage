@@ -4,6 +4,8 @@ mkdir
 dir
 echo. >
 del
+copy
+move
 
 Linux commands
 ls
