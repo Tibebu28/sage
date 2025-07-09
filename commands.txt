@@ -1,0 +1,13 @@
+windows commands
+cd 
+mkdir
+dir
+echo. >
+del
+
+Linux commands
+ls
+rm
+cp
+mv
+cat
