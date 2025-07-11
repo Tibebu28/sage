@@ -4,12 +4,13 @@ using namespace std;
 
 int main(){
 	
-	int num[7]={1,2,3,4,5,6,7};
+	char Al[5]={'A','B','C','D','F'};
+	int i=0;
 	
-	for(int i=0; i<7; i++){
-		cout<<num[i]<<endl;
-	}
-
+     while(i<5){
+     	cout<<Al[i]<<endl;
+     	i++;
+	 }
      
 	return 0;
 }
