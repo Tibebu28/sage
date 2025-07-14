@@ -4,12 +4,11 @@ using namespace std;
 
 int main (){
         int i;
-        
-        	cin>>i;
+        cin>>i;
         
         if(i>0){
         
-		cout<<"positive"<<endl;
+			cout<<"positive"<<endl;
         	
 		}
 		
