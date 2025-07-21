@@ -1,44 +1,21 @@
 #include <iostream>
-
+#include <iomanip>
 using namespace std;
 
 int main(){
 	
-	 int a;
-	 int b;
-	 char m;
-	
-	cout<<"        Multiplication table"<<endl<<endl;
-	cout<<"  to add (A)"<<endl;
-	cout<<"  to subtract (S)"<<endl;
-	cout<<"  to multiply (M)"<<endl;
-	cout<<"  to divide (D)"<<endl<<endl<<endl;
-	cout<<"Type here :";
-	cin>>m;
-	
-			if(m=='A'){
-				cout<<"hello";
-			}
-				else if(m==){
-				
-			}
-			
-					else if(){
-				
-			}
-			
-							else if(){
-				
-			}
+	for(int i=1; i<=10;i++){
 		
+		for(int j=1; j<=10; j++){
 			
-			else{
-				cout<<"m";
-			}
+			 cout<<setw(4)<< i*j;
+		}
+		 cout<<endl;
+	}
 	
 	
 	
 	
-     
+	
 	return 0;
 }
