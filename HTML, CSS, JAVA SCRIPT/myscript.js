@@ -27,6 +27,9 @@ let age = 17;
 if(age >= 18){
     console.log("adult");
 }
+else if(age < 0){
+    console.log("wrong")
+}
 else{
     console.log("teen");
 }  
