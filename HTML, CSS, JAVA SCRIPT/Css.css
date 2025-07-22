@@ -1,3 +1,45 @@
-ol{
+.blueheading{
+    color: white;
+    font-size: 30px;
+    background-color: blue;
+}
+#headingStyleUsingID{
     color: purple;
-{
+}
+p , a{
+    color: brown;
+}
+ol li{
+    color: aqua;
+    font-size: 40px;
+}
+.Cssproperties{
+    color: orange;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px,solid,black;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 30px;
+}
+.HtmlSpan{
+    color: orange;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+.Spanonly{
+    color: black;
+    background-color: yellow;
+    font-size: 30px;
+   
+}
+.button{
+    width: 50px;
+    height: 50px;
+}
