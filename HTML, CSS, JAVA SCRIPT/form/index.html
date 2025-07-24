@@ -7,15 +7,42 @@
     <form action="/test" method="get">
         <label for="firstName">First Name</label>
         <input type="text" name="firstName" id="firstName" placeholder="First Name" />
+        <br/><br/>
          <!-- password -->
         <label for="password">password</label>
         <input type="password" id="password" name="password" placeholder="Enter your password"/>
+        <br></br>
         <!-- radio -->
          <label for="maleRadio">Male</label>
          <input type="radio" id="maleRadio" name="gender" value="male"/>
          <label for="femaleRadio">Female</label>
          <input type="radio" id="femaleRadio" name="gender" value="female">
-         
-    </form>
+         </br></br>
+         <!-- checkbox -->
+          <p>select hobbies</p>
+          <label for="sportcheckbox">sport</label>
+          <input type="checkbox" id="sportcheckbox" name="hobbies" value="sport">
+
+          <label for="musicCheckbok">music</label>
+          <input type="checkbox" id="musicCheckbok" name="hobbies" value="music">
+    </br></br>
+          <!-- Dropdown -->
+           <label for="country">country</label>
+           <select name="country" id="country">
+            <option value="eth">Ethipia</option>
+            <option value="usa">USA</option>
+            <option value="eth">UK</option>
+           </select>
+           <br><br>
+           <label for="comment">commemt</label><br/>
+           <textarea name="comment" id="comment" rows="5" cols="12" maxlength="25" placeholder="Pleace Enter your feedback"></textarea>
+           <br/>
+           <button type="submit">submit</button>
+            <button type="reset">rest</button>
+
+        
+        </form>
+           <!-- submit button -->
+            
 </body>
 </html>

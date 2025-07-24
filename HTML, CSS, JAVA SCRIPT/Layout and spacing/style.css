@@ -1,0 +1,43 @@
+h1{
+    background-color: aqua;
+    width: 500px;
+    display: inline-block;
+}
+h2{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+a {
+    background-color: brown;
+    display: inline-block;
+}
+.box{
+    background-color: orange;
+    padding: 20px 30px 40px 40px;
+    margin: 0 auto;
+    position: sticky;
+    top: 10px;
+    max-width: 1000px;
+    min-width: 600px;
+}
+
+p{
+    position: absolute;
+    top: 150px;
+}
+p::first-letter {
+    color: blue;
+    font-size: 30px;
+}
+h1::before{
+    content: '(-_-)'
+}
+::marker {
+    color: red;
+    font-size: 50px;
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}
