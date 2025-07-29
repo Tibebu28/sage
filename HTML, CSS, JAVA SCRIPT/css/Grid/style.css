@@ -1,0 +1,11 @@
+p {
+    font-size: 50px;
+    background-color: aqua;
+    margin: 0;
+}
+
+.gird-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}

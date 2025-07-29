@@ -1,0 +1,25 @@
+.flexContainer{
+    background-color:  blue;
+    color: white;
+    font-size: 80px;
+    width: 500px;
+    height: 200px;
+    overflow: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+.item1 {
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
+.item2{
+    align-self: flex-start;
+}
+.item3{
+    order: 1;
+    flex-grow: 2;
+}
