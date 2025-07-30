@@ -1,13 +1,35 @@
 let bulb = "off";
+const newDiv = document.createElement("h1")
+
+// document.getElementById("btClick").addEventListener("keydown", insertHTML)
+$("#btClick").click(insertHTML)
+
 function insertHTML () {
-    document.getElementById("chengMe").style.fontsize = ""
-    document.getElementById("chengMe").style.color = ""
+    document.getElementById("chengMe").style.fontsize = "35px";
+    document.getElementById("chengMe").style.color = "red";
+    newDiv.innerHTML = "added element"
+    document.body.appendChild(newDiv);
     
 }
 
-function turnOn(){
-    document.getElementById("bulb")
+function turnon(){
+    document.getElementById("bulb").src = "pic_bulbon.gif"
+    bulb = "on";
+    newDiv.remove()
 }
+function turnoff(){
+    document.getElementById("bulb").src = "pic_bulboff.gif"
+    bulb = "off";  
+}
+ function toggle(){
+    if(bulb == "on"){
+        document.getElementById("bulb").src = "pic_bulboff.gif"
+        bulb = "off";
+    } else {
+        document.getElementById("bulb").src = "pic_bulbon.gif"
+        bulb = "on";
+    }
+ }
  //    object
 const person = {
     firstName: "Tibebu",
@@ -58,4 +80,24 @@ console.log(text);
 let value = 3;
 (4>5)?value =true:value= false
 
-// console.log("Ternary: ", value??"the value of value is undefine")
+console.log("Ternary: ", value??"the value of value is undefine")
+
+// for loop new in javascript
+let books = ["a", "b", "c"]
+
+for(let book of books){
+    console.log(book)
+}
+
+for(let key in person){
+    key == "fullName"? console.log(key,person[key]()) :console.log(key,person[key])
+}
+
+// jQuery
+
+// $('#box').css("background-color","red");
+// $('#box').css("width","200px");
+// $('#box').css("height","200px");
+
+// chaining
+$('#box').css("background-color","red").css("width","200px").css("height","200px").slideUp(2000).slideDown(2000)
