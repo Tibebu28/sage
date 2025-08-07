@@ -3,17 +3,25 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import NoteFound from "./pages/NoteFound";
 import Category from "./pages/Category";
+import Electronic from "./pages/Electronic";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="*" element={<NoteFound />} />
-          <Route path="/Category" element={<Category/>} />
-          
+           <Route path="/">
+            <Route index element={<Home />} />
+            <Route path="About" element={<About />} />
+            <Route path="Category">
+              <Route index element={<Category />} />
+              <Route path="electronic" element={<Electronic/>} />
+              
+            </Route>
+            
+           
+           </Route>
+       
         </Routes>
       </BrowserRouter>
     </div>
