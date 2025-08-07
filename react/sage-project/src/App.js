@@ -3,9 +3,11 @@
  import { useState } from "react"
 import LoginAndLogout from "./components/conditinals/LoginAndLogout"
 import ReactList from "./components/conditinals/ReactList"
+import Crad from "./components/Card"
  function App(){
     const [counter, setCounter] = useState(0)
   return <div>
+              <Crad />
               <h1>first component</h1>
                   <Button name="Log in "/>
                   <br/><br/>
