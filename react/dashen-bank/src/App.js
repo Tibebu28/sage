@@ -5,6 +5,7 @@ import NoteFound from "./pages/NoteFound";
 import Category from "./pages/Category";
 import Electronic from "./pages/Electronic";
 import Layout from "./pages/Layout";
+import UserProfile from "./pages/UserProfile";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="About" element={<About />} />
-
+            <Route path="UserProfile/:id" element={<UserProfile />} />
             <Route path="Category">
               <Route index element={<Category />} />
               <Route path="electronic" element={<Electronic />} />
