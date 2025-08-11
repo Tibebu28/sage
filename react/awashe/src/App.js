@@ -1,22 +1,17 @@
-import React from 'react';
-import { useState } from 'react';
+import Button from "./components/Button"
+import { useSelector } from 'react-redux';
 
 function App() {
-  const [counter,setcounter] = useState(0)
-
-  const sub = () => setcounter(counter - 1)
+  const count = useSelector((state)=> state.counter.value);
 
   return (
-    <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
-      <h1>Awashe bank</h1>
-      <h1>{counter}</h1>
-      <div style={{display:"flex", gap:"10px"}}>
-         <button onClick={() => setcounter(counter+1) }>Increment</button>
-         <button onClick={sub}>Decrement</button>  
-        
-      </div>
+    <div style={{ display:"flex", flexDirection:"column", alignItems:"center"}}>
+      <h1>Awash counter app</h1>
+      <h1>{count}</h1>
+      <Button/>
     </div>
-  );
+  )
+  
 }
 
 export default App;
