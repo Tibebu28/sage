@@ -1,5 +1,8 @@
 import React from "react";
 import { Text, View, Image, TextInput, Button } from "react-native";
+import { Provider } from 'react-redux';
+import store from './assets/redux/store';
+import Home from './Home';
 
 
 export default function App() {
@@ -9,6 +12,10 @@ export default function App() {
       <Image source={{uri:"https://cdn.pixabay.com/photo/2016/11/21/06/53/beautiful-natural-image-1844362_1280.jpg"}} style={{width:"300px",height:200}} />
       <TextInput placeholder="Enter your name" style={{borderWidth:1, padding:"20px"}} />
       <Button title="click me" onPress={()=> alert("Button is clicked")} />
+      // counter 
+      <provider store={store}>
+        <Home/>
+      </provider>
 
     </View>
   );
