@@ -17,7 +17,7 @@ import store from './redux/store';
 const Stack = createNativeStackNavigator();
 export default function App() {
   return (
-        <Provider store={store}>
+        <Providers store={store}>
           
           
           
@@ -31,7 +31,7 @@ export default function App() {
      
       </View>
        
-      </Provider>
+      </Providers>
 
     // <NavigationContainer>
     //   <Stack.Navigator initialRouteName="Home">
