@@ -1,0 +1,54 @@
+body {
+  background-image: url(https://img.freepik.com/premium-vector/abstract-dark-background-zeros-ad-ones-shades-gray-colors_444390-3371.jpg);
+  color: white;
+}
+nav {
+  display: flex;
+  margin-left: 50px;
+  gap: 300px;
+}
+.nav-l {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color: rgb(196, 250, 0);
+}
+.nav-r ul {
+  font-family:'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  display: flex;
+  gap: 95px;
+  justify-content: space-between;
+  margin: 30px;
+}
+.text{
+  margin-left: 20px;
+  font-size: 35px;
+  font-family: cursive;
+  color: rgb(42, 250, 0);
+
+}
+span{
+  font-size: 55px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn button{
+  font-size: 25px;
+  font-weight: bolder;
+  border-style: none;
+  margin-top: 25px;
+  margin-left: 20px;
+  background-color: rgb(46, 46, 46);
+  color: rgb(42, 250, 0);
+
+  padding: 15px;
+  border-radius: 30px;
+
+}
+.btn button:hover{
+  background-color: rgb(42, 250, 0);
+  color: rgb(46, 46, 46);
+}
+
+
+
