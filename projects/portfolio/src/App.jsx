@@ -32,8 +32,12 @@ function App() {
         </p>
       </div>
       <div className="btn">
-        <button className="btn-f">Contact Me</button>
-        <button>View My Work</button>
+        <button className="btn-f">
+          <a href="#contact">contact</a>
+        </button>
+        <button>
+          <a href="#skills">skills</a>
+        </button>
       </div>
       <div className="about" id="about">
         <h2>About</h2>
@@ -115,6 +119,9 @@ function App() {
             Contact
           </a>
         </button>
+        <div className="fotter-l">
+          <p>&copy;2025 Tibebu Hailu. All right reserved</p>
+        </div>
       </div>
     </div>
   );
