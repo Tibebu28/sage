@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(https://unsplash.com/photos/mountain-covering-with-clouds-nN1HSDtKdlw);
+}
+.main {
+  text-align: center;
+  margin-top: 5%;
+}
+.main h1 {
+  font-size: 64px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 255, 255);
+  text-shadow: 2px 4px 5px rgb(0, 255, 255);
+}
+.main input {
+  background-color: rgb(190, 190, 190);
+  border-radius: 8px;
+  height: 35px;
+  width: 35vw;
+  border-style: none;
+  font-weight: bold;
+}
+.books {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: rgb(0, 255, 255);
+  font-size: 20px;
+  text-shadow: 2px 2px 5px;
+}
+.books span {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 2px 2px 5px;
+}
+.books img {
+  width: 50%;
+  height: 50%;
+  margin: 20px;
+  box-shadow: 8px 8px 20px black;
+}
