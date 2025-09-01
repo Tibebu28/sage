@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/style.css"/>
+    </head>
+    <body>
+        <%- include("partials/header") %>
+        <h1>hellow world</h1>
+        <% if(isLogdin){ %>
+        <p>my name is <%= name %></p>
+        <%} else { %> 
+            <h1 class="login">Please logIn</h1>
+            <% } %>
+    </body>
+</html>
