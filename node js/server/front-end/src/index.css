@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/*import {useState,useEffect} from "react"
+import "./App.css"
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+export default function App() {
+  const [laptops,setLaptops] = useState([]);
+
+useEffect(()=> {
+  fetch("http://localhost:5000/laptop")
+    .then((res) => res.json())
+    .then((data)=> setLaptops(data))
+  },[])
+
+  return (
+  <div>
+  {laptops.map((laptop,i)=>(
+    <div key={i} className="main">
+    <div>
+    <h2>brand:{laptop.brand}</h2>
+    <h2>storage:{laptop.storage}</h2>
+    <h2>memory:{laptop.memory}</h2>
+    </div>
+    </div>
+    ))}
+  </div>
+
+  );
+}*/
