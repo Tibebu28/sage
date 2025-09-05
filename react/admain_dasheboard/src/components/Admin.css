@@ -1,0 +1,13 @@
+nav{
+	margin-top: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 18%;
+
+
+}
+
+.icon{
+	font-size: 40px;
+	margin: 1% 5% 0 0;
+}
