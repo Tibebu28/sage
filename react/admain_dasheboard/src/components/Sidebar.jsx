@@ -10,7 +10,7 @@ export default function Sidebar(){
 	return(
 	<div className="sidebar">
 		  <h1><RiAdminFill />
-Admin Dashboard</h1>
+Admin</h1>
 			<div className="sidebar-b">
 		  <Link to="/"><span><RiDashboardHorizontalFill /></span>Dashboard</Link>
 		  <Link to="/users"><span><CgProfile /></span>Users</Link>
